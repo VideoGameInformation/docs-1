@@ -1,16 +1,16 @@
 ---
-title: Toast kit Build Guide
+title: Toast Solderable Kit Build Guide
 description: How to put together your new Toast solderable kit.
 author: Boardsource
-product_link: https://boardsource.xyz/store/5f2ef1b52bf5e8714a60f613
+product_link: https://boardsource.xyz/store/5ec9df84c6b834480de6c3d0
 subcategory: medium
 draft: false
 tags: 
-- 40%
+- 30%
 - ergo
 - kit
-banner: https://i.imgur.com/EyfkJCX.jpg
-thumbnail: https://i.imgur.com/EyfkJCX.jpg
+banner: https://i.imgur.com/KNumKXu.jpg
+thumbnail: https://i.imgur.com/KNumKXu.jpg
 ---
 ### This guide is for *Toast* PCBs.
 
@@ -18,52 +18,47 @@ thumbnail: https://i.imgur.com/EyfkJCX.jpg
 ### Required 
 | Item | Count |
 |------|-------|
-| DIODESTYLE Diodes | 34 |
 | PCB | 2 |
-| Promicro-style or similar microcontroller | 2 |
+| Promicro or similar microcontroller | 2 |
 | TRRS Jack | 2 | 
 | TRRS Cable | 1 | 
-| Reset Switch | 2 | 
-| Choc Hotswap Sockets | 34 | 
+| Reset Switch | 2 |  
 | Choc Switches | 34 | 
 | *Choc* Keycaps | 34 |
 
-
-![components](https://i.imgur.com/1vWnwcP.jpg)
+![components](https://i.imgur.com/Yisk1DY.jpg)
 
 # Soldering
 ## Microcontrollers
-**Orientation**: Both microcontrollers Left face up and right face down..
+**Orientation**: Microcontrollers left face down Right face up.
 - Note, it is recommended to flash each microcontroller prior to soldering. See [firmware](#firmware) section for more.
 1. Insert headers from front, solder in from the back.
-![headers inserted](https://i.imgur.com/3FM5Rqy.jpg)
-2. Place microcontroller Left face up and right face down.. 
-![microcontroller placed](https://i.imgur.com/7sjplaF.jpg)
+![headers inserted](https://i.imgur.com/8LxUkzw.jpg)
+2. Place microcontroller left face down right face up . 
+![microcontroller placed](https://i.imgur.com/lzF0qxl.jpg)
 3. Apply solder to all pins.
 4. Use flush cutters or similar to trim excess from pins on each side.
-![microcontroller finished](https://i.imgur.com/My9TOHX.jpg)
-
-## Solder-in switches
-1. Insert switch into plate and then insert into pcb 
-![switch placed](https://i.imgur.com/TZoPNbo.jpg)
-2. Solder from the back
-![switch soldered to the pcb](https://i.imgur.com/vwtX8p9.jpg)
-![oled finished](https://i.imgur.com/9jKQixW.jpg)
+![microcontroller finished](https://i.imgur.com/2Z5txqY.jpg)
 
 ## Misc.
 ### TRRS jacks
 1. Position TRRS jack on front of PCB and secure with tape.
-![trrs jack placed](https://i.imgur.com/kS3DWw3.jpg)
+![trrs jack placed](https://i.imgur.com/YqZEU3D.jpg)
 2. Apply solder to all four pins.
-![trrs jack finished](https://i.imgur.com/cX3S0QM.jpg)
+![trrs jack finished](https://i.imgur.com/1gmfKri.jpg)
 ### Reset switches
 1. Solder one pad.
-![reset switch placed](https://i.imgur.com/pXrIgaS.jpg)
+![reset switch placed](https://i.imgur.com/oxDQQ4k.jpg)
 2. While holding switch with tweezers, reflow solder and place switch down on pad.
 3. Solder remaining pads.
-![reset switch placed](https://i.imgur.com/GJd4UgH.jpg)
+![reset switch placed](https://i.imgur.com/1XTbbSG.jpg)
 
-
+## Soldering in switches 
+1. Insert a couple of the corner switches into the plate and then insert those switches into the pcb.
+![Hot swap socket foot print soldered](https://i.imgur.com/rSOWlPT.jpg)
+2. Flip the pcb over and solder in the switches from the back.
+![Hot swap socket one pin soldered](https://i.imgur.com/NofAdfk.jpg)
+3. Insert the rest of the switches and solder from the back.
 
 ## Firmware
 
